@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #000;
+  --secondry-color: #18181B;
+  --border: rgba(63,63,70, 0.4);
+}
+
+body {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.container {
+  border: 2px solid var(--border);
+  margin: auto;
+  width: 80%;
+  background-color: var(--secondry-color);
+}
+
+.line {
+  border-bottom: 1px solid var(--secondry-color);
+}
+
+.flex {
+  display: flex;
+}
