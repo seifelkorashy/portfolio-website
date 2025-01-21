@@ -1,12 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 :root {
   --primary-color: #000;
   --secondry-color: #18181B;
   --border: rgba(63,63,70, 0.4);
+  --bg-header: #252529;
+  --title : #B2B2B5;
+  --blue : rgb(45 212 191);
 }
 
 body {
@@ -27,4 +33,5 @@ body {
 
 .flex {
   display: flex;
+  align-items: center;
 }
