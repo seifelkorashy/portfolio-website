@@ -1,0 +1,118 @@
+/* left sec */
+main.flex {
+    gap:3rem;
+    align-items: start;
+}
+
+main .left-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 1.3rem;
+}
+
+main .left-sec button {
+    width: 11rem;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    opacity: .5;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+main .left-sec button:hover, main .left-sec button.active {
+    opacity: 1;
+}
+
+main .right-sec {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    flex-grow: 1;
+}
+
+main .right-sec .card {
+    justify-content: center;
+    border: 2px solid var(--border);
+    border-radius: 5px;
+    background-color: var(--secondry-color);
+    text-align: center;
+    transition: .3s;
+}
+
+main .right-sec .card:hover {
+    border: 2px solid var(--blue);
+}
+
+main .right-sec .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+main .right-sec .card .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--title);
+    text-align: center;
+    transition: .3s;
+}
+
+main .right-sec .card .card-content h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--title);
+    text-align: center;
+}
+
+main .right-sec .card .card-content p {
+    font-size: 1rem;
+    color: var(--sub-title);
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+}
+
+main .right-sec .card button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+
+main .right-sec .card button:hover {
+    background-color: var(--blue);
+}
+
+main .right-sec .card button a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+@media (max-width:600px) {
+    main {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    main .left-sec {
+        margin: auto;
+        
+    }
+}
