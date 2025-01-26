@@ -1,0 +1,43 @@
+.hero {
+    margin-top: 2rem;
+    gap: 15px;
+}
+
+.hero .left-sec {
+    flex-grow: 1;
+}
+
+.hero .left-sec img {
+    width: 70px;
+    border: 1px solid darkorange;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.hero .left-sec i {
+    color: blue;
+}
+
+.hero .left-sec h1 {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--title);
+}
+
+.hero .left-sec p {
+    margin-bottom: 1.3rem;
+    color: var(--sub-title);
+    
+}
+
+.hero .left-sec .icons i {
+    margin-left: 15px;
+    font-size: 1.3rem;
+}
+
+
+
+.hero .left-sec .icons i:last-child a {
+    color: black;
+    font-size: 1.5rem;
+}
