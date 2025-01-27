@@ -41,3 +41,31 @@
     color: black;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .left-sec {
+        text-align: center;
+    }
+
+    .hero .left-sec h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero .left-sec p {
+        font-size: 1rem;
+    }
+
+    .hero .left-sec .icons i {
+        font-size: 1.1rem;
+    }
+
+    .hero .left-sec .icons i:last-child a {
+        font-size: 1.3rem;
+    }
+    
+}

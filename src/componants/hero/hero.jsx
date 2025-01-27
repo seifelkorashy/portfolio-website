@@ -1,4 +1,6 @@
 import "./hero.css";
+import Lottie from "lottie-react";
+import  devAnimation from "../../animation/dev.json";
 
 export default function Hero (){
     return(
@@ -16,7 +18,10 @@ export default function Hero (){
                     <i> <a href="https://github.com/seifelkorashy?tab=repositories" target="blank" className="icon-github"></a></i>
                 </div>
             </div>
-            <div className="right-sec border">ssss</div>
+            <div className="right-sec">
+            <Lottie animationData={devAnimation}
+                style={{height:"300px"}}/>
+            </div>
         </section>
     )
 }

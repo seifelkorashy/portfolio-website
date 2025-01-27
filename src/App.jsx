@@ -1,6 +1,7 @@
 import Header from "./componants/header/header";
 import Hero from "./componants/hero/hero";
 import Main from "./componants/main/main";
+import Contact from "./componants/contact/contact";
 function App() {
 
   return (
@@ -9,6 +10,8 @@ function App() {
       <Hero />
       <div className="line"></div>
       <Main />
+      <div className="line"></div>
+      <Contact />
     </div>
   )
 }
