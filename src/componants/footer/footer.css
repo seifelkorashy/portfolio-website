@@ -1,0 +1,17 @@
+footer {
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+footer p {
+    color: var(--title);
+    font-size: 1.5rem;
+}
+
+footer span {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
