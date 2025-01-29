@@ -25,11 +25,9 @@ function App() {
       <div className="line"></div>
       <Footer />
 
-    {showScroll &&
-        <a  className="scroll2top" href="#up">
+        <a style={{transition:".8s", opacity: showScroll ? 1 : 0}} className="scroll2top" href="#up">
         <button className="icon-arrow-up"></button>
       </a>
-      }
     </div>
   )
 }
