@@ -2,7 +2,7 @@ import "./main.css";
 
 export default function Main() {
     return(
-         <main className="flex">
+        <main className="flex">
             <div className="left-sec">
                 <button className="active">all projects</button>
                 <button>html & css</button>

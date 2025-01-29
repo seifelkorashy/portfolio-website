@@ -3,10 +3,19 @@ import Hero from "./componants/hero/hero";
 import Main from "./componants/main/main";
 import Contact from "./componants/contact/contact";
 import Footer from "./componants/footer/footer";
+import { useState } from "react";
 function App() {
-
+  const [showScroll, setShowScroll] = useState(false)
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      setShowScroll(true)
+    }
+    else {
+      setShowScroll(false)
+    }
+  });
   return (
-    <div className="container">
+    <div className="container" id="up">
       <Header/>
       <Hero />
       <div className="line"></div>
@@ -15,6 +24,12 @@ function App() {
       <Contact />
       <div className="line"></div>
       <Footer />
+
+    {showScroll &&
+        <a  className="scroll2top" href="#up">
+        <button className="icon-arrow-up"></button>
+      </a>
+      }
     </div>
   )
 }
