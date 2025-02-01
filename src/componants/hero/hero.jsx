@@ -7,7 +7,7 @@ export default function Hero (){
         <section className="hero flex">
             <div className="left-sec">
                 <div className="avatar-icon">
-                    <img src="public/me-modified.png" alt="" />
+                    <img src="/me-modified.png" alt="" />
                     <i className="icon-check-circle"></i>
                 </div>
                 <h1>frontend developer</h1> 
