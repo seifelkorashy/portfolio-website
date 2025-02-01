@@ -24,6 +24,11 @@ header ul li a:hover {
     color: var(--blue);
 }
 
+.light header .moon, .light header .sun {
+    background-color: var(--bg-header);
+    color: var(--title);
+}
+
 header .moon, header .sun {
     padding: 10px;
     background-color: var(--bg-header);
