@@ -24,7 +24,7 @@ header ul li a:hover {
     color: var(--blue);
 }
 
-header .moon {
+header .moon, header .sun {
     padding: 10px;
     background-color: var(--bg-header);
     color: white;
@@ -33,6 +33,12 @@ header .moon {
     border-radius: 50%;
     font-size: 1.5rem;
     cursor: pointer;
+    border: 1px solid darkorange;
+}
+
+.light header .moon {
+    background-color: var(--bg-header);
+    color: var(--title);
 }
 
 header .show-model {
@@ -78,6 +84,23 @@ header .fixed ul.model  {
         font-size: 1.7rem;
         cursor: pointer;
         transition: .3s;
+    }
+
+    header ul.model li:first-child button {
+        background-color: var(--primary-color);
+    }
+
+    .light header .show-model {
+        background-color: var(--bg-header);
+        color: var(--title);
+    }
+
+    .light header .icon-close {
+        color: var(--title);
+    }
+
+    .light header ul.model li:first-child button {
+        background-color: var(--primary-color);
     }
 
     header .close:hover {

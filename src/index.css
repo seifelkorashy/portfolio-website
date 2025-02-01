@@ -18,6 +18,16 @@
   --blue : rgb(45 212 191);
 }
 
+.light {
+  --primary-color: rgb(250, 250, 250);
+  --secondry-color: #f4f4f4;
+  --border: rgba(0,0,0, 0.1);
+  --bg-header: #fff;  
+  --title : #000;
+  --sub-title: #333;
+  --blue : rgb(45 212 191);
+}
+
 body {
   background-color: var(--primary-color);
   color: #fff;
@@ -64,6 +74,11 @@ body {
   border: none;
   cursor: pointer;
   font-size: 1.5rem;
+}
+
+button:disabled {
+  cursor: no-drop;
+  opacity: 0.5;
 }
 
 @media (max-width: 600px) {

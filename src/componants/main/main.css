@@ -25,6 +25,11 @@ main .left-sec button {
     transition: .3s;
 }
 
+.light main .left-sec button {
+    background-color: var(--bg-header);
+    color: var(--title);
+}
+
 main .left-sec button:hover, main .left-sec button.active {
     opacity: 1;
 }
@@ -95,6 +100,10 @@ main .right-sec .card button {
     margin-bottom: 10px;
 }
 
+.light main .right-sec .card button {
+    background-color: var(--sub-title);
+}
+
 main .right-sec .card button:hover {
     background-color: var(--blue);
 }
@@ -102,6 +111,14 @@ main .right-sec .card button:hover {
 main .right-sec .card button a {
     color: #fff;
     font-size: 1rem;
+}
+
+.light main .right-sec .card button a {
+    color: var(--bg-header);
+}
+
+main .right-sec .card button:hover a {
+    color: var(--bg-header);
 }
 
 
