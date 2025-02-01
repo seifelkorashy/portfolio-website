@@ -16,7 +16,7 @@ export default function Header() {
     }, [theme]);
     return (
         <header className="flex">
-            <img src="public/me-modified.png" alt="" style={{width:"45px"}} />
+            <img src="/me-modified.png" alt="" style={{width:"45px"}} />
             <button  className="show-model icon-menu" onClick={() => {setShowModel(true)}}></button>
             <nav>
                 <ul className="flex">

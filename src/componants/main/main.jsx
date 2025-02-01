@@ -14,15 +14,15 @@ export default function Main() {
     } , [])
 
     let projects = [
-        {id: 1, title: "quiz app", img: "public/imgs/p1.png", subTitle: "this is a quiz app, you can test your knowledge", category: "javascript", link: "https://quizapp2006.netlify.app/"},
-        {id: 2, title: "guess word game", img: "public/imgs/p2.png", subTitle: "this is a guess word game, Word Search Adventure", category: "javascript", link: "https://guesswordgame2006.netlify.app/"},
-        {id: 3, title: "image editor", img: "public/imgs/p3.png", subTitle: "this image editor, Image Manipulation Tool", category: "javascript", link: "https://imageeditor2006.netlify.app/"},
-        {id: 4, title: "crud app", img: "public/imgs/p4.png", subTitle: "this crud app, Data Management System", category: "javascript", link: "https://crud2006.netlify.app/"},
-        {id: 5, title: "notes app", img: "public/imgs/p5.png", subTitle: "this notes app, Note-Taking App", category: "javascript", link: "https://notes-app2006.netlify.app/"},
-        {id: 6, title: "todo list", img: "public/imgs/p6.png", subTitle: "this todo list, Daily Planner", category: "javascript", link: "https://todo-list2006.netlify.app/"},
-        {id: 7, title: "typing speed test game", img: "public/imgs/p7.png", subTitle: "this typing speed test game, Improve Your Typing Speed", category: "javascript", link: "https://typingspeedtestgame1.netlify.app/"},
-        {id: 8, title: "x o game", img: "public/imgs/p8.png", subTitle: "this this Tic-Tac-Toe Game , Multiplayer Tic-Tac-Toe", category: "javascript", link: "https://xopaly.netlify.app/"},
-        {id: 9, title: "dashboard", img: "public/imgs/p9.png", subTitle: "this dashboard", category: "css", link: "https://elkorashy-dashboard.netlify.app"},
+        {id: 1, title: "quiz app", img: "/imgs/p1.png", subTitle: "this is a quiz app, you can test your knowledge", category: "javascript", link: "https://quizapp2006.netlify.app/"},
+        {id: 2, title: "guess word game", img: "/imgs/p2.png", subTitle: "this is a guess word game, Word Search Adventure", category: "javascript", link: "https://guesswordgame2006.netlify.app/"},
+        {id: 3, title: "image editor", img: "/imgs/p3.png", subTitle: "this image editor, Image Manipulation Tool", category: "javascript", link: "https://imageeditor2006.netlify.app/"},
+        {id: 4, title: "crud app", img: "/imgs/p4.png", subTitle: "this crud app, Data Management System", category: "javascript", link: "https://crud2006.netlify.app/"},
+        {id: 5, title: "notes app", img: "/imgs/p5.png", subTitle: "this notes app, Note-Taking App", category: "javascript", link: "https://notes-app2006.netlify.app/"},
+        {id: 6, title: "todo list", img: "/imgs/p6.png", subTitle: "this todo list, Daily Planner", category: "javascript", link: "https://todo-list2006.netlify.app/"},
+        {id: 7, title: "typing speed test game", img: "/imgs/p7.png", subTitle: "this typing speed test game, Improve Your Typing Speed", category: "javascript", link: "https://typingspeedtestgame1.netlify.app/"},
+        {id: 8, title: "x o game", img: "/imgs/p8.png", subTitle: "this this Tic-Tac-Toe Game , Multiplayer Tic-Tac-Toe", category: "javascript", link: "https://xopaly.netlify.app/"},
+        {id: 9, title: "dashboard", img: "/imgs/p9.png", subTitle: "this dashboard", category: "css", link: "https://elkorashy-dashboard.netlify.app"},
     ]
     const [arr, setArr] = useState(projects);
 
