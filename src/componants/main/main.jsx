@@ -60,7 +60,7 @@ export default function Main() {
                 onClick={() => {
                     setArr(projects.filter((project) => project.category === "react"))
                 }}
-                >react</button>
+                >react + MUI</button>
             </div>
 
 
