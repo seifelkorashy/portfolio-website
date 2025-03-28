@@ -19,11 +19,11 @@ export default function Main() {
         {id: 3, title: "image editor", img: "/imgs/p3.png", subTitle: "this image editor, Image Manipulation Tool", category: "javascript", link: "https://imageeditor2006.netlify.app/"},
         {id: 4, title: "crud app", img: "/imgs/p4.png", subTitle: "this crud app, Data Management System", category: "javascript", link: "https://crud2006.netlify.app/"},
         {id: 5, title: "notes app", img: "/imgs/p5.png", subTitle: "this notes app, Note-Taking App", category: "javascript", link: "https://notes-app2006.netlify.app/"},
-        {id: 6, title: "todo list", img: "/imgs/p6.png", subTitle: "this todo list, Daily Planner", category: "javascript", link: "https://todo-list2006.netlify.app/"},
         {id: 7, title: "typing speed test game", img: "/imgs/p7.png", subTitle: "this typing speed test game, Improve Your Typing Speed", category: "javascript", link: "https://typingspeedtestgame1.netlify.app/"},
         {id: 8, title: "x o game", img: "/imgs/p8.png", subTitle: "this this Tic-Tac-Toe Game , Multiplayer Tic-Tac-Toe", category: "javascript", link: "https://xopaly.netlify.app/"},
         {id: 9, title: "dashboard", img: "/imgs/p9.png", subTitle: "this dashboard", category: "css", link: "https://elkorashy-dashboard.netlify.app"},
         {id: 10, title: "prayer app", img: "/imgs/p11.png", subTitle: "this prayer app, Prayer Times App", category: "react", link: "https://prayer2006.netlify.app"},
+        {id: 11, title: "todo list", img: "/imgs/p12.png", subTitle: "this todo list, Daily Planner", category: "react", link: "https://todoapp2006.netlify.app/"},
     ]
     const [arr, setArr] = useState(projects);
 
