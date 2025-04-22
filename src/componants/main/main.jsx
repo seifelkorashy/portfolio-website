@@ -24,6 +24,7 @@ export default function Main() {
         {id: 9, title: "dashboard", img: "/imgs/p9.png", subTitle: "this dashboard", category: "css", link: "https://elkorashy-dashboard.netlify.app"},
         {id: 10, title: "prayer app", img: "/imgs/p11.png", subTitle: "this prayer app, Prayer Times App", category: "react", link: "https://prayer2006.netlify.app"},
         {id: 11, title: "todo list", img: "/imgs/p12.png", subTitle: "this todo list, Daily Planner", category: "react", link: "https://todoapp2006.netlify.app/"},
+        {id: 12, title: "ecommerce website", img: "/imgs/p13.png", subTitle: "Your One-Stop Shop for Everything You Need", category: "react", link: "https://ecommerceweb2006.netlify.app/"},
     ]
     const [arr, setArr] = useState(projects);
 
