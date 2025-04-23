@@ -61,30 +61,19 @@ main .right-sec .card img {
     border-radius: 5px;
 }
 
-main .right-sec .card .card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 10px;
-    border-radius: 5px;
-    color: var(--title);
-    text-align: center;
-    transition: .3s;
-}
 
-main .right-sec .card .card-content h1 {
+main .right-sec .card  h1 {
     font-size: 1.5rem;
     font-weight: 500;
-    color: var(--title);
+    color: var(--title) !important;
     text-align: center;
 }
 
-main .right-sec .card .card-content p {
+
+main .right-sec .card p {
     font-size: 1rem;
-    color: var(--sub-title);
+    color: var(--sub-title) !important;
     text-align: center;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 10px;
 }
 
 main .right-sec .card button {
