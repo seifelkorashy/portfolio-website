@@ -76,40 +76,6 @@ main .right-sec .card p {
     text-align: center;
 }
 
-main .right-sec .card button {
-    padding: 10px;
-    border: none;
-    outline: none;
-    background-color: var(--primary-color);
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-    color: #fff;
-    transition: .3s;
-    margin-bottom: 10px;
-}
-
-.light main .right-sec .card button {
-    background-color: var(--sub-title);
-}
-
-main .right-sec .card button:hover {
-    background-color: var(--blue);
-}
-
-main .right-sec .card button a {
-    color: #fff;
-    font-size: 1rem;
-}
-
-.light main .right-sec .card button a {
-    color: var(--bg-header);
-}
-
-main .right-sec .card button:hover a {
-    color: var(--bg-header);
-}
-
 
 @media (max-width:600px) {
     main {
