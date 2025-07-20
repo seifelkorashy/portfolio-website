@@ -69,7 +69,7 @@ export let projects = [
     img: "/imgs/p11.png",
     subTitle: "this prayer app, Prayer Times App",
     category: "react",
-    link: "https://prayer2006.netlify.app",
+    link: "https://prayerstime2025.netlify.app",
   },
   {
     id: 11,

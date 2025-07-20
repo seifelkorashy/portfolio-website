@@ -37,6 +37,7 @@ export default function Main() {
   });
 
   return (
+    <div>
     <main className="flex">
       <div className="left-sec">
         <button
@@ -74,5 +75,6 @@ export default function Main() {
 
       <div className="right-sec">{allProjects}</div>
     </main>
+    </div>
   );
 }
