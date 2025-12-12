@@ -86,13 +86,5 @@ export let projects = [
     subTitle: "Your One-Stop Shop for Everything You Need",
     category: "react",
     link: "https://ecommerce2006.netlify.app/",
-  },
-  {
-    id: 13,
-    title: "test website",
-    img: "/imgs/p13.png",
-    subTitle: "Your One-Stop Shop for Everything You Need",
-    category: "react",
-    link: "https://ecommerce2006.netlify.app/",
-  },
+  }
 ];
