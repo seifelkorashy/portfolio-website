@@ -1,0 +1,8 @@
+.tech{
+    background-color:var(--border) !important;
+    color: var(--title) !important;
+}
+
+.text {
+     color: var(--title) !important;
+}

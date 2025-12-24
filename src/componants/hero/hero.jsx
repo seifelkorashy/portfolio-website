@@ -11,7 +11,6 @@ export default function Hero (){
                     <i className="icon-check-circle"></i>
                 </div>
                 <h1>frontend developer</h1> 
-                <p>I have html, css, js languages & i have react and git</p>
                 <div className="icons">
                     <i> <a href="https://www.facebook.com/profile.php?id=100009325844427&locale=ar_AR" target="blank" className="icon-facebook"></a></i>
                     <i> <a href="https://wa.me/+201507589706" target="blank" className="icon-whatsapp"></a></i>

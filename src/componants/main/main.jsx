@@ -1,6 +1,6 @@
 import "./main.css";
 import { useEffect, useState } from "react";
-import { projects } from "../../projects.js";
+import { projects } from "../../data.js";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";

@@ -4,6 +4,7 @@ import Main from "./componants/main/main";
 import Contact from "./componants/contact/contact";
 import Footer from "./componants/footer/footer";
 import { useState } from "react";
+import Techs from "./componants/tech/tech";
 function App() {
   const [showScroll, setShowScroll] = useState(false)
   window.addEventListener("scroll", () => {
@@ -18,6 +19,8 @@ function App() {
     <div className="container" id="up">
       <Header/>
       <Hero />
+      <div className="line"></div>
+      <Techs/>
       <div className="line"></div>
       <Main />
       <div className="line"></div>
